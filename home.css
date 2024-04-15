@@ -1,0 +1,89 @@
+* {
+    font-family: Avenir;
+}
+
+.topnav {
+    background-color: #088F8F;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.topnav * {
+    display: inline;
+}
+
+#nav-btn a{
+    color: #454B1B;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+#nav-btn a:hover {
+    background-color: #AFE1AF;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.topnav h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: 	#023020;
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
+.search {
+    margin-right: 10px;
+    margin-left: auto;
+    padding: 10px;
+}
+
+.search #searchInput {
+    height: 25px;
+    width: 50%;
+    overflow: hidden;
+    border-radius: 10px;
+    border: none;
+}
+
+.search #searchBtn, #clear {
+    background-color: #98FB98;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px;
+    color: #454B1B;
+    font-weight: bold;
+    border: none;
+}
+
+.search #searchBtn:hover, #clear:hover {
+    background-color: #AFE1AF;
+}
+
+.bg-image {
+    background-image: url('ocean.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title {
+    display: block;
+    padding: 100px 0;
+}
+
+p {
+    display: flex;
+    width: 300px;
+    text-align: justify;
+    flex-wrap: wrap;
+}
