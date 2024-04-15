@@ -15,9 +15,11 @@
                 </div>
     
                 <div class="search">
-                    <input type="text" id="searchInput" placeholder="Enter a destination or keyword">
-                    <button id="searchBtn">Search</button>
-                    <button id="clear">Clear</button>
+                    <form id="search-recommendations-form" action="/search" method="GET">
+                        <input type="text" id="searchInput" placeholder="Enter a destination or keyword">
+                        <button id="searchBtn">Search</button>
+                        <button id="clear">Clear</button>
+                    </form>
                 </div>
             </nav> 
         </header>
@@ -26,6 +28,7 @@
                 <h1 id="title">EXPLORE DREAM DESTINATION</h1>
                 <p>It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, while pursuing the desired destination that captivates the heart and ignites a sense of wonder.</p>
                 <button id="bookBtn">Book Now</button>
+                <div id="results"></div>
             </section>
         </main>
         <script src="./travel_recommendation.js"></script>
